@@ -3,11 +3,18 @@ body{
 }
 section{
     display: flex;
-    /* margin: 0 auto; */
+}
+.hero{
+   border-left: 10px solid green;
+   padding-left: 10px;
+   
+   
+   
 }
 .text{
     width: 50%;
     padding-left: 5%;
+   
 }
 .focusing{
     font-size: 50px;
@@ -28,6 +35,9 @@ background-color: #516BEB;
 }
 .text img{
     width: 60%;
+}
+.my-mission{
+    color: coral;
 }
 .section-section{
     text-align: center;
@@ -118,7 +128,7 @@ background-color: #516BEB;
     background-repeat: no-repeat;
     background-size: 150px;
     padding-bottom: 400px;
-    padding: 50px 20px;
+    
 }
 .global-image img{
     width: 400px;
